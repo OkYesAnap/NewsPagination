@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 2s linear;
   height: 80px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .oneBlock {
-  width: 1000px;
+  width: 100%;
   display: inline-block;
   padding: 10px 20px;
   margin: 10px 20px;
@@ -55,7 +55,7 @@ input {
   margin: 20px 0 0 0;
 }
 .allBlocks {
-  width: 1000px;
+  width: 80%;
   margin: auto;
 }
 li {
