@@ -42,7 +42,7 @@ class App extends Component {
     this.setState({ page: e.target.textContent });
   }
   paginationChange(e) {
-    this.setState({ pagination: +e.target.value });
+    this.setState({ pagination: +e.target.value, page: 1 });
   }
   render() {
     return (
